@@ -71,3 +71,7 @@ jar {
      baseName = 'demo1'
      version = '0.1'
 }
+
+task stage {
+     dependsOn clean, build
+}
