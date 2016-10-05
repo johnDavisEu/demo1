@@ -72,6 +72,4 @@ jar {
      version = '0.1'
 }
 
-task stage {
-     dependsOn clean, assemble
-}
+
