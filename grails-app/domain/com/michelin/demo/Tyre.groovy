@@ -4,6 +4,8 @@ class Tyre {
 
     String dimension
 
+    float price
+
     static constraints = {
     }
 }
